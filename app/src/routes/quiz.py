@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from user import db
+from src.models.user import db
 from src.models.word import Word, UserWord, QuizResult
 import random
 import jwt

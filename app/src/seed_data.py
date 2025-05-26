@@ -1,8 +1,8 @@
 import csv
 import os
 import random
-from src.models.user import db
-from src.models.word import Word
+from user import db
+from models.word import Word
 from flask import Flask
 
 # 创建一个临时的Flask应用上下文

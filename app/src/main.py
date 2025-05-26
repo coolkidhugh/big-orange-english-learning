@@ -1,9 +1,8 @@
-from user import db, User
-from word import Word, UserWord, QuizResult
-from user import user_bp
-from word import word_bp
-from quiz import quiz_bp
-
+from src.models.user import db, User
+from src.models.word import Word, UserWord, QuizResult
+from src.routes.user import user_bp
+from src.routes.word import word_bp
+from src.routes.quiz import quiz_bp
 import os
 import sys
 # DON'T CHANGE THIS !!!

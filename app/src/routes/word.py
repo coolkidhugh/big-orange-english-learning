@@ -1,4 +1,4 @@
-from user import db
+from src.models.user import db
 from datetime import datetime
 
 class Word(db.Model):
